@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BIO</string>
+    <string name="name">Deepak M S</string>
+    <string name="my_bio"> Hey! Hello I am Deepak M S , student of first year
+    BTech Computer Science and Engineering at School of Engineering CUSAT.\n I love coding . One of my hobbies are try to learn new things on coding. I am
+        pretty well at <b><i>C and Java Programming.</i>and also a web developer</b>.I am the owner of Noobcoders10 organisation on github.This organisation will help the
+        beginners . We are trying to get all the resource for beginners in that repo. Really simple language . effective communication between the students.
+        now only the first lesson of C is available . In future more course are coming.
+
+    </string>
+</resources>
