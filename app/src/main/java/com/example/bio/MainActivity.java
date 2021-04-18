@@ -1,6 +1,7 @@
 package com.example.bio;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -10,7 +11,11 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.bio.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     private EditText enterhobbies;
     private TextView hobbies;
@@ -18,10 +23,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        /*setContentView(R.layout.activity_main);
 
         enterhobbies = findViewById(R.id.hobbies);
-        hobbies = findViewById(R.id.hobbies_text);
+        hobbies = findViewById(R.id.hobbies_text);*/
+        binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
     }
 
     public void add_hobbies(View view) {
