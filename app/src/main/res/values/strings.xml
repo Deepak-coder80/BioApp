@@ -8,4 +8,8 @@
         now only the first lesson of C is available . In future more course are coming.
 
     </string>
+    <string name="hobby_hint_text">Enter your hobby</string>
+    <string name="done">Done</string>
+    <string name="image_description">android_robot_image</string>
+    <string name="auto_fill_hints">classical gitar</string>
 </resources>

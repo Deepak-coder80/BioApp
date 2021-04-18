@@ -6,4 +6,11 @@
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="generalStyle">
+        <item name="android:layout_margin">@dimen/layout_margin</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+        <item name="android:padding">@dimen/text_padding</item>
+        <item name="android:textSize">24dp</item>
+    </style>
 </resources>
